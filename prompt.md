@@ -1,6 +1,6 @@
 # Prompt
 
-Context and Role
+## Context and Role
 
 You are a Senior Full-Stack Software Engineer specializing in AI-powered educational platforms, scalable SaaS applications, and modern UI systems.
 
@@ -10,7 +10,7 @@ The application must be scalable, modular, responsive, secure, and optimized for
 
 --------------------------------------------------
 
-Objective
+## Objective
 
 Build a complete full-stack AI-powered LMS platform that includes:
 
@@ -24,9 +24,9 @@ Build a complete full-stack AI-powered LMS platform that includes:
 
 --------------------------------------------------
 
-Technology Stack
+## Technology Stack
 
-Frontend
+### Frontend
 - Next.js App Router
 - React.js
 - JavaScript
@@ -36,27 +36,27 @@ Frontend
 - remark-gfm
 - Lucide React
 
-Backend
+### Backend
 - Next.js API Routes
 - Node.js
 
-Database
+### Database
 - Neon PostgreSQL
 - Drizzle ORM
 
-Authentication & Background Jobs
+### Authentication & Background Jobs
 - Clerk Authentication
 - Inngest
 
-AI Integration
+### AI Integration
 - Google Gemini AI
 
-Configuration
+### Configuration
 - Environment variables (.env)
 
 --------------------------------------------------
 
-Folder Structure
+## Folder Structure
 
 Use scalable modular architecture:
 
@@ -77,9 +77,9 @@ project-root/
 
 --------------------------------------------------
 
-Core Features
+## Core Features
 
-1. Authentication
+### 1. Authentication
 - Signup/Login/Logout
 - Session persistence
 - Protected routes
@@ -95,7 +95,7 @@ Protected routes:
 
 --------------------------------------------------
 
-2. Landing Page
+### 2. Landing Page
 
 Create a modern landing page with:
 - Hero section
@@ -108,7 +108,7 @@ Create a modern landing page with:
 
 --------------------------------------------------
 
-3. Dashboard
+### 3. Dashboard
 
 Build a dashboard with:
 - Sidebar navigation
@@ -121,7 +121,7 @@ Build a dashboard with:
 
 --------------------------------------------------
 
-4. Course Creation
+### 4. Course Creation
 
 Create a multi-step course creation flow.
 
@@ -151,7 +151,7 @@ On submit:
 
 --------------------------------------------------
 
-5. AI Course Outline Generation
+### 5. AI Course Outline Generation
 
 Use Gemini AI to generate:
 - Course title
@@ -169,7 +169,7 @@ Implement:
 
 --------------------------------------------------
 
-6. AI Study Material System
+### 6. AI Study Material System
 
 Generate AI-powered:
 - Notes
@@ -190,7 +190,7 @@ Store all generated content in the database.
 
 --------------------------------------------------
 
-7. AI Video Recommendations
+### 7. AI Video Recommendations
 
 Do NOT use YouTube API.
 
@@ -198,7 +198,7 @@ Use Gemini AI to recommend relevant YouTube learning videos based on course topi
 
 --------------------------------------------------
 
-8. Course Detail Page
+### 8. Course Detail Page
 
 Include:
 - Course intro card
@@ -216,7 +216,7 @@ Materials:
 
 --------------------------------------------------
 
-9. UI/UX Requirements
+### 9. UI/UX Requirements
 
 Create a premium SaaS-style UI using:
 - Dark theme
@@ -236,7 +236,7 @@ Ensure:
 
 --------------------------------------------------
 
-10. Database & API System
+### 10. Database & API System
 
 Use Neon PostgreSQL with Drizzle ORM.
 
@@ -262,7 +262,7 @@ Use:
 
 --------------------------------------------------
 
-11. Background Jobs & AI Wrapper
+### 11. Background Jobs & AI Wrapper
 
 Use Inngest for:
 - Notes generation
@@ -280,7 +280,7 @@ Create reusable AI utilities supporting:
 
 --------------------------------------------------
 
-12. Data Processing
+### 12. Data Processing
 
 Implement:
 - Safe AI response parsing
@@ -293,7 +293,7 @@ Implement:
 
 --------------------------------------------------
 
-13. Security & Error Handling
+### 13. Security & Error Handling
 
 Implement:
 - Clerk authentication
@@ -318,7 +318,7 @@ Frontend should show:
 
 
 
-14. Code Standards
+### 14. Code Standards
 
 - Use functional React components
 - Use async/await
@@ -334,7 +334,7 @@ Strict Rules:
 - Do NOT leave placeholders or TODOs
 - Generate complete production-ready code
 
-15. Generation Rules
+### 15. Generation Rules
 
 IMPORTANT:
 - Generate complete code for every file
