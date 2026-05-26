@@ -247,12 +247,13 @@ Required tables:
 - studyTypeContent
 
 Create API routes for:
-- User creation
-- Course management
-- AI generation
-- Study material generation
-- Content fetching
-- Inngest orchestration
+- /api/create-user
+- /api/courses
+- /api/generate-course-outline
+- /api/study-type
+- /api/study-type-content
+- /api/youtube
+- /api/inngest
 
 Use:
 - Validation
